@@ -17,21 +17,21 @@ public class Sketch extends PApplet {
   public void setup() {
   // Colours are assigned to the ground based on the location or quadrant of the top left corner of the house base is in
 	// Q2 Blue
-	if(randHouseX <= 125 && randHouseY <= (275 / 2)) {
+	  if(randHouseX <= 125 && randHouseY <= (275 / 2)) {
     	background(210, 255, 173);
-	}
+	  }
 	//Q1 Orange
-	else if(randHouseX >= 125 && randHouseY <= (275 / 2)) {
-		background(168, 109, 50);
-	}
+	  else if(randHouseX >= 125 && randHouseY <= (275 / 2)) {
+		  background(168, 109, 50);
+	  }
 	//Q3 Green
-	else if(randHouseX <= 125 && randHouseY >= (275 / 2)) {
-		background(62, 168, 50);
-	}
+	  else if(randHouseX <= 125 && randHouseY >= (275 / 2)) {
+		  background(62, 168, 50);
+	  }
 	//Q4 Red
-	else if(randHouseX >= 125 && randHouseY >= (275 / 2)) {
-		background(168, 50, 50);
-	}
+	  else if(randHouseX >= 125 && randHouseY >= (275 / 2)) {
+		  background(168, 50, 50);
+	  }
   }
 
   public void draw() {
